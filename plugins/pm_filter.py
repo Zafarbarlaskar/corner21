@@ -351,11 +351,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/cinemaenglish123'),
-                InlineKeyboardButton('𝐷𝑒𝑣', url='https://t.me/Abhisheksvlog')
+                InlineKeyboardButton('🔰G R O U P🔰', url='https://t.me/Filmsclub04'),
+                InlineKeyboardButton('🔰D E V🔰', url='https://t.me/Films_Bot_Panther')
             ],
             [
-                InlineKeyboardButton('𝐶𝒉𝑎𝑛𝑛𝑒𝑙', url=f'https://t.me/justaupdatechannel')
+                InlineKeyboardButton('🔰S U P P O R T 🔰', url=f'https://t.me/BT_MOVIES_HD')
             ]
             ]
 
@@ -404,11 +404,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/cinemaenglish123'),
-                InlineKeyboardButton('𝐷𝑒𝑣', url='https://t.me/Abhisheksvlog')
+                InlineKeyboardButton('🔰G R O U P🔰', url='https://t.me/Filmsclub04'),
+                InlineKeyboardButton('🔰D E V🔰', url='https://t.me/Films_Bot_Panther')
             ],
             [
-                InlineKeyboardButton('𝐶𝒉𝑎𝑛𝑛𝑒𝑙', url=f'https://t.me/justaupdatechannel')
+                InlineKeyboardButton('🔰S U P P O R T 🔰', url=f'https://t.me/BT_MOVIES_HD')
             ]
             ]
         await query.answer()
