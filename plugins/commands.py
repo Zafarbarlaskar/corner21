@@ -239,8 +239,8 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
             [
-                InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/Filmsclub04'),
-                InlineKeyboardButton('𝐷𝑒𝑣', url='https://t.me/Films_Bot_Panther')
+                InlineKeyboardButton('🔰G R O U P🔰', url='https://t.me/Filmsclub04'),
+                InlineKeyboardButton('🔰D E V🔰', url='https://t.me/Films_Bot_Panther')
             ],
             [
                 InlineKeyboardButton('🔰S U P P O R T 🔰', url=f'https://t.me/BT_MOVIES_HD')
