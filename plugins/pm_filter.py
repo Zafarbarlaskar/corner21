@@ -349,6 +349,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f_caption
         if f_caption is None:
             f_caption = f"{files.file_name}"
+        buttons = [
+            [
+                InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/cinemaenglish123'),
+                InlineKeyboardButton('𝐷𝑒𝑣', url='https://t.me/Abhisheksvlog')
+            ],
+            [
+                InlineKeyboardButton('𝐶𝒉𝑎𝑛𝑛𝑒𝑙', url=f'https://t.me/justaupdatechannel')
+            ]
+            ]
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
