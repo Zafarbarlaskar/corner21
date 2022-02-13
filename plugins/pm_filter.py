@@ -416,8 +416,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             chat_id=query.from_user.id,
             file_id=file_id,
             caption=f_caption,
-            protect_content=True if ident == 'checksubp' else False
-        )
+            reply_markup=InlineKeyboardMarkup(buttons)
+            )
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
