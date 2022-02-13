@@ -91,8 +91,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             ],[
-            InlineKeyboardButton('🔰Dev🔰', url='https://t.me/Films_bot_Panther')
-            InlineKeyboardButton('🔰Support🔰', url='https://t.me/BT_MOVIES_HD')
+            InlineKeyboardButton('DEV', url='https://t.me/Films_bot_panther')
+            InlineKeyboardButton('🍿𝑀𝑜𝑣𝑖𝑒 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐺𝑟𝑜𝑢𝑝🍿', url='https://t.me/BT_MOVIES_HD')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
