@@ -8,3 +8,4 @@ requests
 bs4
 imdbpy
 ytthumb
+aiohttp==3.7.4
