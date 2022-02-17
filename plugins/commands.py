@@ -140,16 +140,13 @@ async def start(client, message):
                     logger.exception(e)
                     f_caption=f_caption
         if f_caption is None:
-        f_caption = f"{title}"
-    buttons = [
-        [
-            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/Cinemaenglish123'),
-            InlineKeyboardButton('𝐷𝑒𝑣', url='https://t.me/Abhisheksvlog')
-        ],
-        [
-            InlineKeyboardButton('𝐶𝒉𝑎𝑛𝑛𝑒𝑙', url=f'https://t.me/justaupdatechannel')
-        ]
-        ]
+        f_caption = f"{files.file_name}"
+    await client.send_cached_media(
+        chat_id=message.from_user.id,
+        file_id=file_id,
+        caption=f_caption,
+        protect_content=True if pre == 'filep' else False,
+        )
             try:
                 await client.send_cached_media(
                     chat_id=message.from_user.id,
