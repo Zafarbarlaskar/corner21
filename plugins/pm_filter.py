@@ -456,6 +456,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Yt-Thumb', callback_data='yt'),
         ], [
             InlineKeyboardButton('Audio-Book', callback_data='abook'),
+            InlineKeyboardButton('Telegraph', callback_data='tgraph'),
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')
@@ -477,6 +478,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "tgraph":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.TGRAPH_TXT,
+            disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
         )
