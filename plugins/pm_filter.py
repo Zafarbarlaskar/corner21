@@ -445,17 +445,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
             InlineKeyboardButton('Auto Filter', callback_data='autofilter'),
-        ], [
             InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra'),
         ], [
+            InlineKeyboardButton('Extra Mods', callback_data='extra'),
             InlineKeyboardButton('Covid', callback_data='corona'),
             InlineKeyboardButton('Report', callback_data='report'),
         ], [
             InlineKeyboardButton('Sticker-Id', callback_data='sticker'),
             InlineKeyboardButton('Url Shortener', callback_data='url'),
-        ], [
             InlineKeyboardButton('Yt-Thumb', callback_data='yt'),
+        ], [
+            InlineKeyboardButton('Audio-Book', callback_data='abook'),
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')
@@ -477,6 +477,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "abook":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ABOOK_TXT,
+            disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
         )
