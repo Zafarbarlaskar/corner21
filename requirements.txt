@@ -10,3 +10,5 @@ imdbpy
 ytthumb
 aiohttp==3.7.4
 pyshorteners
+PyPDF2
+pypdf2
