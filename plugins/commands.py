@@ -250,6 +250,16 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
+        reply_markup=InlineKeyboardMarkup(
+             [
+                 [
+                     InlineKeyboardButton("Bot Owner", url="https://t.me/Abhisheksvlog"),
+                     InlineKeyboardButton("Movie Group", url="https://t.me/cinemaenglish123")
+                 ],[
+                     InlineKeyboardButton("Repo Editor", url="https://t.me/creatorbeatz")
+                   ]
+             ]
+        )
         )
                     
 
