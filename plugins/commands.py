@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🔰S U P P O R T 🔰', url='http://t.me/BT_MOVIES_HD')
+                InlineKeyboardButton('🔰S U P P O R T 🔰', url='http://t.me/CornersOfficial')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -49,8 +49,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔰𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟🔰', url='https://t.me/FILMS_BOT_PANTHER'),
-            InlineKeyboardButton('🔰𝐺𝑟𝑜𝑢𝑝🔰', url='https://t.me/BT_MOVIES_HD')
+            InlineKeyboardButton('🔰𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟🔰', url='https://t.me/zsbhere'),
+            InlineKeyboardButton('🔰𝐺𝑟𝑜𝑢𝑝🔰', url='https://t.me/Request_corner')
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
@@ -96,8 +96,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔰𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟🔰', url='https://t.me/FILMS_BOT_PANTHER'),
-            InlineKeyboardButton('🔰𝐺𝑟𝑜𝑢𝑝🔰', url='https://t.me/BT_MOVIES_HD')
+            InlineKeyboardButton('🔰𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟🔰', url='https://t.me/zsbhere'),
+            InlineKeyboardButton('🔰𝐺𝑟𝑜𝑢𝑝🔰', url='https://t.me/Request_corner')
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
@@ -253,10 +253,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
              [
                  [
-                     InlineKeyboardButton("🔰G R O U P🔰", url="https://t.me/Filmsclub04"),
-                     InlineKeyboardButton("🔰D E V🔰", url="https://t.me/films_bot_panther")
+                     InlineKeyboardButton("🔰G R O U P🔰", url="https://t.me/Request_corner"),
+                     InlineKeyboardButton("🔰D E V🔰", url="https://t.me/zsbhere")
                  ],[
-                     InlineKeyboardButton("🔰S U P P O R T🔰", url="https://t.me/BT_MOVIES_HD")
+                     InlineKeyboardButton("🔰S U P P O R T🔰", url="https://t.me/CornersOfficial")
                    ]
              ]
         )
