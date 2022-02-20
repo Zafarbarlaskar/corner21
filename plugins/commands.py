@@ -253,10 +253,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
              [
                  [
-                     InlineKeyboardButton("🔰D E V🔰", url="https://t.me/Abhisheksvlog"),
-                     InlineKeyboardButton("🔰G R O U P🔰", url="https://t.me/cinemaenglish123")
+                     InlineKeyboardButton("🔰G R O U P🔰", url="https://t.me/Filmsclub04"),
+                     InlineKeyboardButton("🔰D E V🔰", url="https://t.me/films_bot_panther")
                  ],[
-                     InlineKeyboardButton("Repo Editor", url="https://t.me/creatorbeatz")
+                     InlineKeyboardButton("🔰S U P P O R T🔰", url="https://t.me/creatorbeatz")
                    ]
              ]
         )
