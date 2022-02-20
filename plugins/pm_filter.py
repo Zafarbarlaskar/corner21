@@ -355,7 +355,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('🔰D E V🔰', url='https://t.me/zsbhere')
             ],
             [
-                InlineKeyboardButton('🔰S U P P O R T 🔰', url=f'https://t.me/Moviecorner0205116')
+                InlineKeyboardButton('🔰S U P P O R T 🔰', url=f'https://t.me/CornersOfficial')
             ]
             ]
 
@@ -408,7 +408,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('🔰D E V🔰', url='https://t.me/zsbhere')
             ],
             [
-                InlineKeyboardButton('🔰S U P P O R T 🔰', url=f'https://t.me/Moviecorner0205116')
+                InlineKeyboardButton('🔰S U P P O R T 🔰', url=f'https://t.me/CornersOfficial')
             ]
             ]
         await query.answer()
@@ -481,7 +481,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🎥Channel', url='https://t.me/Moviecorner0205116'),
+            InlineKeyboardButton('🎥Channel', url='https://t.me/CornersOfficial'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
