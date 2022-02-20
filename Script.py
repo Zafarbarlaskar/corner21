@@ -11,7 +11,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 🔰 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 🔰 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v7.8.9 [ 𝙿𝚁𝙾 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Tʜɪs Bᴏᴛ Wᴀs Mᴀᴅᴇ Bʏ @Zsbhere❤️ 
+- Tʜɪs Bᴏᴛ Wᴀs Mᴀᴅᴇ Bʏ @Zsbhere ❤️ 
 - Cᴏɴᴛᴀᴄᴛ Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ Fᴏʀ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ @Zsbhere  
 
 <b>Dᴇᴠs:</b>
