@@ -351,7 +351,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('🔰G R O U P🔰', url='https://t.me/CornersOfficial'),
+                InlineKeyboardButton('🔰G R O U P🔰', url='https://t.me/Request_corner),
                 InlineKeyboardButton('🔰D E V🔰', url='https://t.me/zsbhere')
             ],
             [
@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('🔰G R O U P🔰', url='https://t.me/CornersOfficial'),
+                InlineKeyboardButton('🔰G R O U P🔰', url='https://t.me/Request_corner'),
                 InlineKeyboardButton('🔰D E V🔰', url='https://t.me/zsbhere')
             ],
             [
@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/zsbhere'),
-            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/CornersOfficial')
+            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/Request_corner')
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
