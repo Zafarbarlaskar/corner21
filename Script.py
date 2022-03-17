@@ -27,7 +27,7 @@ Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛʜɪs ʀᴇᴘᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡ�
 - <a href='https://t.me/Zsbhere'>Dᴀʀᴇ Dᴇᴠɪʟ</a>"""
 
 <b>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</b>
-- <a href='https://t.me/Request_Corner'>Request Corner-X</a>"""
+- <a href='https://t.me/Request_Corner>Request Corner-X</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
