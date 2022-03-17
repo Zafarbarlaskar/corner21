@@ -24,10 +24,10 @@ Tʜɪs ʙᴏᴛ ᴡᴀs ᴍᴀᴅᴇ ʙʏ ♥️ @zsbhere
 Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛʜɪs ʀᴇᴘᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ @AboutmeDareDevil
 
 <b>ᴅᴇᴠs:</b>
-- <a href='https://t.me/Zsbhere>Dᴀʀᴇ Dᴇᴠɪʟ</a>
+- <a href='https://t.me/Zsbhere'>Dᴀʀᴇ Dᴇᴠɪʟ</a>
 
 <b>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</b>
-- <a href='https://t.me/Rrequest_Corner'>Rᴇǫᴜᴇsᴛ Corner-X</a>"""
+- <a href='https://t.me/Request_Corner'>Rᴇǫᴜᴇsᴛ Corner-X</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
