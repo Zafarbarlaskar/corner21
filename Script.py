@@ -12,21 +12,22 @@ class Script(object):
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ ᴍʏ ɴᴀᴍᴇ: {}
-➥ ᴄʀᴇᴀᴛᴏʀ: <a href='https://https://t.me/Zsbhere>Dᴀʀᴇ Dᴇᴠɪʟ</a>
+➥ ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/https://t.me/Zsbhere>Dᴀʀᴇ Dᴇᴠɪʟ</a>
 ➥ ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 ➥ ʟᴀɴɢᴜᴀɢᴇ: Python 𝟹
 ➥ ᴅᴀᴛᴀ ʙᴀsᴇ: <a href='https://www.mongodb.com/'>MongoDB</a>
 ➥ ʙᴏᴛ sᴇʀᴠᴇʀ: <a href='https://heroku.com'>Heroku</a>
-➥ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v7.8.9 [ ᴘʀᴏ Max ]"""
+➥ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v7.8.9 [ ᴘʀᴏ max ]"""
 
     SOURCE_TXT = """<b>Source:</b>
-Tʜɪs ʙᴏᴛ ᴡᴀs ᴍᴀᴅᴇ ʙʏ  @Zsbhere ❤️ 
-Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛʜɪs ʀᴇᴘᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ @AboutmeDareDevil 
+Tʜɪs ʙᴏᴛ ᴡᴀs ᴍᴀᴅᴇ ʙʏ ♥️ @zsbhere
+Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛʜɪs ʀᴇᴘᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ @AboutmeDareDevil
 
 <b>ᴅᴇᴠs:</b>
-- <a href='https://t.me/Zsbhere'>Dᴀʀᴇ Dᴇᴠɪʟ</a>"""
+- <a href='https://t.me/Zsbhere>Dᴀʀᴇ Dᴇᴠɪʟ</a>
+
 <b>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</b>
-- <a href='https://t.me/Request_Corner>Request Corner-X</a>"""
+- <a href='https://t.me/Rrequest_Corner'>Rᴇǫᴜᴇsᴛ Corner-X</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -44,15 +45,15 @@ Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛʜɪs ʀᴇᴘᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡ�
 • /delall - delete the whole filters in a chat (chat owner only)."""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
-    
+
 - This bot support both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
 2. This bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format.
-<b>URL buttons:</b>
 
+<b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/AboutmeDareDevil)</code>
 
 <b>Alert buttons:</b>
@@ -118,85 +119,108 @@ Paste some texts or documents on a website!
 • These commands can be used by any group member."""
 
     TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
+
 Do as you wish with telegra.ph module!
+
 <b>Commands and Usage:</b>
-
 • /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
-<b>NOTE:</b>
 
+<b>NOTE:</b>
 • This bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
     INFO_TXT = """Help: <b>Information</b>
+
 Get information about something!
+
 <b>Commands and Usage:</b>
 • /id - get id of a specified user.
 • /info  - get information about a user.
 • /json - get the json details of a message.
+
 <b>NOTE:</b>
 • This bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
     GTRANS_TXT = """Help: <b>Google Translator</b>
+
 Translate texts to a specific language!
+
 <b>Commands and Usage:</b>
 • /tr [language code][reply] - translate replied message to specific language.
+
 <b>NOTE:</b>
 • This should have admin privillage.
 • These commands works on both pm and group.
 • IMDb can translate texts to 200+ languages."""
 
     SEARCH_TXT = """Help: <b>IMDb</b>
+
 Search many things without leaving telegram!
+
 <b>Commands and Usage:</b>
 • /imdb  - get the film information from IMDb source.
 • /search  - get the film information from various sources.
+
 <b>NOTE:</b>
 • This bot should have admin privillage.
 • More search tools can be found on inline.
 • Those commands works on both pm and group."""
 
     PURGE_TXT = """Help: <b>Purge</b>
+
 Need to delete lots of messages? That's what purges are for!
+
 <b>Commands and Usage:</b>
 • /purge - delete all messages from the replied to message, to the current message.
+
 <b>NOTE:</b>
 • This bot should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
 
     RESTRIC_TXT = """Help: <b>Restrictions</b>
+
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
+
 This module allows you to do that easily, by exposing some common actions, so everyone will see!
+
 <b>Commands and Usage:</b>
 • /ban - ban a user.
 • /tban - temporarily ban a user. Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
 • /mute - mute a user.
 • /tmute - temporarily mute a user. Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
 • /unban or /unmute - unmute a user & unban a user.
+
 <b>Examples:</b>
 - Mute a user for two hours.
 -> <code>/tmute @username 2h</code>
+
 <b>NOTE:</b>
 • This should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
 
     PIN_MESSAGE_TXT = """Help: <b>Pin Message</b>
+
 All the pin related commands can be found here; keep your chat up to date on the latest news with a simple pinned message!
+
 <b>Commands and Usage:</b>
 • /pin: Pin the message you replied to. Add 'loud' or 'notify' to send a notification to group members.
 • /unpin: Unpin the current pinned message. If used as a reply, unpins the replied to message.
+
 <b>NOTE:</b>
 • This bot should have admin privillage.
 • These commands works only group.
 • These commands can be used by Only admin."""
 
     ADMIN_TXT = """Help: <b>Admin Mods</b>
+
 <b>NOTE:</b>
 This module only works for my admins
+
 <b>Commands and Usage:</b>
 • /logs - to get the rescent errors.
 • /stats - to get status of files in db.
@@ -217,60 +241,79 @@ This module only works for my admins
 <b>💠𝙁𝙍𝙀𝙀 𝙎𝙏𝙊𝙍𝘼𝙂𝙀:</b> <code>{}</code> MiB"""
 
     FORCESUB_TXT = """**♦️ ʀᴇᴀᴅ ᴛʜɪs ɪɴsᴛʀᴜᴄᴛɪᴏɴ ♦️**
+
 __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
+
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
     MEMES_TXT = """Help: <b>Memes</b>
+
 Some dank memes for fun or whatever!
+
 <b>Commands and Usage:</b>
 • /throw or /dart - t𝗈 m𝖺𝗄𝖾 drat 
 • /roll or /dice - roll the dice 
 • /goal or /shoot - to make a goal or shoot
 • /luck or /cownd - Spin the Lucky
 • /runs strings
+
 <b>NOTE:</b>
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
     URL_SHORTNER_TXT = """Help: <b>URL Shortner</b>
+
 Some URLs is Shortner
+
 <b>Commands and Usage:</b>
 • /short <code>(link)</code> - I will send the shorted links.
+
 <b>Example:</b>
 <code>/short https://t.me/josprojects</code>
+
 <b>NOTE:</b>
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
     TTS_TXT = """Help: <b>Text to Speech</b>
+
 A module to convert text to voice with language support.
+
 <b>Commands and Usage:</b>
 • /tts - Reply to any text message with language code to convert as audio.
+
 <b>NOTE:</b>
 • This bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
     MUSIC_TXT = """Help: <b>Music</b>
+
 Music download modules, for those who love music.
+
 <b>Commands and Usage:</b>
 • /song or /mp3 (songname) - download song from yt servers.
 • /video or /mp4 (songname) - download video from yt servers.
+
 <b>YouTube Thumbnail Download</b>
 • /ytthumb (youtube link)
 <b>Example:</b> <code>/ytthumb https://youtu.be/h6PtzFYaMxQ</code>
+
 <b>NOTE:</b>
 • This bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
+
 There Is Nothing To Know More. Send Me The Limit Of Your Password.
 - I Will Give The Password Of That Limit.
+
 <b>Commands and Usage:</b>
 • /genpassword or /genpw <code>20</code>
+
 <b>NOTE:</b>
 • Only Digits Are Allowed
 • Maximum Allowed Digits Till 84 
@@ -280,9 +323,12 @@ There Is Nothing To Know More. Send Me The Limit Of Your Password.
 • These commands can be used by any group member."""
 
     SHARE_TXT = """Help: <b>Sharing Text Maker</b>
+
 a bot to create a link to share text in the telegram.
+
 <b>Commands and Usage:</b>
 • /share (text or reply to message)
+
 <b>NOTE:</b>
 • This bot should have admin privillage.
 • These commands works on both pm and group.
@@ -299,7 +345,9 @@ a bot to create a link to share text in the telegram.
 ɴᴀᴍᴇ - {}"""
 
     ZOMBIES_TXT = """Help: <b>Zombies</b>
+
 <b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
+
 <b>Commands and Usage:</b>
 • /inkick - command with required arguments and i will kick members from group.
 • /instatus - to check current status of chat member from group.
@@ -323,4 +371,3 @@ a bot to create a link to share text in the telegram.
       
     STATUS = """{}\nChat Member Status**\n\n```recently``` - {}\n```within_week``` - {}\n```within_month``` - {}\n```long_time_ago``` - {}\nDeleted Account - {}\nBot - {}\nUnCached - {}
 """
-
