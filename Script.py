@@ -1,10 +1,14 @@
 class Script(object):
     START_TXT = """ʜᴇʟʟᴏ {},
+
 ᴍʏ ɴᴀᴍᴇ ɪs <a href=https://t.me/{}>{}</a>!
+
 <b>ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs. ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ
+
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ😉, ʜɪᴛ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ..</b>"""
 
     HELP_TXT = """Hey {}
+
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ ᴍʏ ɴᴀᴍᴇ: {}
@@ -16,19 +20,24 @@ class Script(object):
 ➥ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v7.8.9 [ ᴘʀᴏ Max ]"""
 
     SOURCE_TXT = """<b>Source:</b>
-Tʜɪs ʙᴏᴛ ᴡᴀs ᴍᴀᴅᴇ ʙʏ ♥️ @Zsbhere ❤️ 
+Tʜɪs ʙᴏᴛ ᴡᴀs ᴍᴀᴅᴇ ʙʏ  @Zsbhere ❤️ 
 Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛʜɪs ʀᴇᴘᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ @AboutmeDareDevil 
+
 <b>ᴅᴇᴠs:</b>
 - <a href='https://t.me/Zsbhere'>Dᴀʀᴇ Dᴇᴠɪʟ</a>"""
+
 <b>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</b>
 - <a href='https://t.me/Request_Corner'>Request Corner-X</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
+
 - Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
+
 <b>NOTE:</b>
 1. This bot should have admin privillage.
 2. Only admins can add filters in a chat.
 3. Alert buttons have a limit of 64 characters.
+
 <b>Commands and Usage:</b>
 • /filter - add a filter in chat.
 • /filters - list all the filters of a chat.
@@ -36,18 +45,24 @@ Iғ ʏᴏᴜ ɴᴇᴇᴅ ᴛʜɪs ʀᴇᴘᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡ�
 • /delall - delete the whole filters in a chat (chat owner only)."""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
+    
 - This bot support both url and alert inline buttons.
+
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
 2. This bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format.
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Aboutmewhitedevil)</code>
+
+<code>[Button Text](buttonurl:https://t.me/AboutmeDareDevil)</code>
+
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
 
     FILLINGS_TXT = """Help: <b>Fillings</b>
+
 You can also customise the contents of your message with contextual data. For example, you could mention a user by name in the filter message, or mention them in a filter!
+
 <b>Supported fillings:</b>
 - <code>{first}</code>: The user's first name.
 - <code>{last}</code>: The user's last name.
@@ -58,12 +73,14 @@ You can also customise the contents of your message with contextual data. For ex
 - <code>{dcid}</code>: The user's DC ID.
 - <code>{chatname}</code>: The chat's name.
 - <code>{query}</code>: Any Message Text.
+
 <b>Example:</b>
 <b>- Save a filter using the mention.</b>
 -> <code>/filter test Hello {mention} This Is your Username : {username} And This Is your ID : {id}.</code>
 """
 
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
 2. Make sure that your channel does not contains camrips, porn and fake files.
@@ -71,24 +88,31 @@ You can also customise the contents of your message with contextual data. For ex
  I'll add all the files in that channel to my db."""
 
     CONNECTION_TXT = """Help: <b>Connections</b>
+
 - Used to connect bot to PM for managing filters 
 - It helps to avoid spamming in groups.
+
 <b>NOTE:</b>
 1. Only admins can add a connection.
 2. Send <code>/connect</code> for connecting me to ur PM
+
 <b>Commands and Usage:</b>
 • /connect  - connect a particular chat to your PM.
 • /disconnect  - disconnect from a chat.
 • /connections - list all your connections."""
 
     AUTO_MANUAL_TXT = """Help: <b>Filters</b>
+
 <b>Select a filters type Below:</b>"""
 
     PASTE_TXT = """Help: <b>Paste</b>
+
 Paste some texts or documents on a website!
+
 <b>Commands and Usage:</b>
 • /paste [text] - paste the given text on Pasty
 • /paste [reply] - paste the replied text on Pasty
+
 <b>NOTE:</b>
 • This bot should have admin privillage.
 • These commands works on both pm and group.
@@ -97,8 +121,10 @@ Paste some texts or documents on a website!
     TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
 Do as you wish with telegra.ph module!
 <b>Commands and Usage:</b>
+
 • /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
 <b>NOTE:</b>
+
 • This bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
