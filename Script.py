@@ -12,7 +12,7 @@ class script(object):
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ ᴍʏ ɴᴀᴍᴇ: {}
-➥ ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/https://t.me/Zsbhere>Dᴀʀᴇ Dᴇᴠɪʟ</a>
+➥ ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/https://t.me/Zsbhere'>Dᴀʀᴇ Dᴇᴠɪʟ</a>
 ➥ ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 ➥ ʟᴀɴɢᴜᴀɢᴇ: Python 𝟹
 ➥ ᴅᴀᴛᴀ ʙᴀsᴇ: <a href='https://www.mongodb.com/'>MongoDB</a>
